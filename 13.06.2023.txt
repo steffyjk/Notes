@@ -1,0 +1,8 @@
+__new__ in OOP
+
+are there destructors in python? --> we only have one destructor which is __del__ [ deletes the obj of class ]
+
+we do have constructors right ? --> so many such as __init__ & we can create our own.
+				 --> constructor called automatically when obj of class created
+Do we have to call __del__ destructor manually? --> yes we can call it manually to [ del obj_name ]
+						  --> other than that python automatically calls the __del__ if the obj is not used
